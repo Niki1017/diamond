@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+
+    margin: auto;
+    width: calc(100% - 20px);
+    max-width: 1200px;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTop {
+    /* display: flex; */
+    border-bottom: 1px solid #ddd;
+    /* padding-bottom: 10px; */
+}
+
+.left {
+    list-style: none;
+    display: flex;
+}
+
+.left li {
+    margin-right: 20px;
+}
+
+header a{
+    line-height: 40px;
+}
+
+.left li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.tel {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.headerTop .right button {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    border: none;
+    outline: 1px solid #ddd;
+    transition: all 0.3s; /* Smooth transition for hover effect */
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #333;
+}
+
+.logo{
+    display: flex;
+    /* background-color: blue; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.category{
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.category h1{
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.category .card{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.category .card img{
+    width: 240px;
+}
+
+.category .card p{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.shopTovar{
+    background-color: aqua;
+}
+
+.shopTovar h1{
+    margin-left: 30px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
