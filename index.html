@@ -46,37 +46,147 @@
             Your browser does not support the video tag.
         </video>
         <div class="heroInfo">
-            <h1>Diamond</h1>
-            <p>Лаконичные украшения</p>
+            <div class="container">
+                <h2 class="videoHeader">Diamond</h2>
+                <p>Лаконичные украшения</p>
+                <a class="newLink" href="">NEW <img src="img/arrow-right-up.svg" alt=""></a>
+            </div>
         </div>
-        
+
     </div>
 
     <div class="category">
-        <h1>Категории</h1>
-        <div class="card">
-            <img src="img/sergi.webp" alt="">
-            <p>Серьги</p>
+        <div class="container">
+            <h2>КАТЕГОРИИ</h2>
+            <a href="#" class="card">
+                <img src="img/sergi.webp" alt="">
+                <p>Серьги</p>
+            </a>
+
+            <a href="#" class="card centerCard">
+                <img src="img/colier.webp" alt="">
+                <p>Колье</p>
+            </a>
+
+            <a href="#" class="card">
+                <img src="img/rings.webp" alt="">
+                <p>Кольца</p>
+            </a>
         </div>
 
-        <div class="card">
-            <img src="img/colier.webp" alt="">
-            <p>Колье</p>
-        </div>
+    </div>
 
-        <div class="card">
-            <img src="img/rings.webp" alt="">
-            <p>Кольца</p>
+    <div class="collections">
+        <div class="men cardCollection">
+            <div class="collectionInfo">
+                <h3>МУЖСКИЕ УКРАШЕНИЯ</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+        <div class="taro cardCollection">
+            <div class="collectionInfo">
+                <h3>ТАРО</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+        <div class="charity cardCollection">
+            <div class="collectionInfo">
+                <h3>БЛАГОТВОРИТЕЛЬНОСТЬ</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+        <div class="objects cardCollection">
+            <div class="collectionInfo">
+                <h3>OBJECTS</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
         </div>
     </div>
 
     <div class="shopTovar">
-        <h1 class="hits">Хиты продаж</h1>
-        <p class="catalog" style="display: inline-block;">В каталог</p><img src="img/arrow-right-up.svg" alt=""
-            width="25px" style="display: inline-block;">
+        <div class="container">
+            <div class="catalog-right">
+                <h2 class="hits">Хиты продаж</h2>
+                <p class="catalog">В каталог<img src="img/arrow-right-up.svg" alt=""
+                    width="25px" style="display: inline-block;"></p>
+            </div>
+            <div class="tovarCards">
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" src="img/0.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">RING 128</h3>
+                    <p class="buy">1790 руб</p>
+                    <p class="desc">Кафф на губу</p>
+                </div>
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" src="img/0.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">AUDREY</h3>
+                    <p class="buy">3550 руб</p>
+                    <p class="desc">Зеркальные серьги-капли на од...</p>
+                </div>
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" src="img/0.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">BRANCHES</h3>
+                    <p class="buy">4750 руб</p>
+                    <p class="desc">Широкое структурное кольцо</p>
+                </div>
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" src="img/0.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">ORBITAL</h3>
+                    <p class="buy">1700 руб</p>
+                    <p class="desc">Браслет</p>
+                </div>
+
+            </div>
+        </div>
     </div>
 
+    <script>
+        let cards = document.getElementsByClassName("cardCollection");
+
+        for(let c of cards){
+            c.style.height=window.innerWidth / 2 + "px"
+        }
+
+    </script>
 
 </body>
 
 </html>
+
+<!-- СДЕЛАТЬ СЕКЦИЮ О НАС -->
