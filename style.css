@@ -355,3 +355,54 @@ nav a {
     line-height: 28px;
     font-family: "Raleway", sans-serif;
 }
+
+.certificates .container{
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin-bottom: 120px;
+}
+
+.certificates .info{
+    align-items: center;
+    width: 60%;
+}
+
+.certificates .info a{
+    color: #333;
+    margin-left: 60px;
+}
+
+.certificates .info h1{
+    color: #333;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 50px;
+}
+
+.certificates .info h1 span{
+    margin-left: 60px;
+}
+
+.gift{
+    width: 40%;
+}
+
+.emails{
+    background-color: aqua;
+    text-align: center;
+}
+
+.emails h1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.emails input{
+    width: 300px;
+    padding: 10px;
+}
+
+.emails button{
+    width: 150px;
+    padding: 10px;
+}
