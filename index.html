@@ -4,41 +4,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Diamond</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Nikita</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <a href="#" class="logo">Nikita</a>
-
-            <nav>
-                <a href="#" class="active">Главная</a>
-                <a href="skill.html">Скиллы</a>
-                <a href="projects.html">Проекты</a>
-            </nav>
-        </header>
-        <section class="home">
-            <div class="home-img">
-                <img src="main.jpg" alt="">
-            </div>
-            <div class="home-content">
-                <h1>Привет, я <span>Nikita</span></h1>
-                <h3 class="typing-text">Я <span></span></h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique
-                    doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam
-                    quaerat neque asperiores ea.</p>
-                <div class="social-icons">
-                    <a href="https://vk.com/autli_officiall" target="_blank"><i class="fa-brands fa-vk"></i></a>
-                    <a href="https://github.com/Niki1017?tab=repositories" target="_blank"><i
-                            class="fa-brands fa-github"></i></a>
-                    <a href="https://t.me/autli" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+    <header>
+        <div class="headerTop">
+            <div class="container">
+                <ul class="left">
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="right">
+                    <a class="tel" href="tel:+74955904132">+7(495)590-41-32</a>
+                    <button style="background-image: url(img/search.svg);"></button>
+                    <button style="background-image: url(img/bag.svg);"></button>
+                    <button style="background-image: url(img/heart.svg);"></button>
+                    <button style="background-image: url(img/avatar-people-profile-svgrepo-com.svg);"></button>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="headerBottom">
+            <div class="container">
+                <a class="logo" href="index.html"><img src="img/diamond.svg" alt="" width="90px"></a>
+                <nav>
+                    <a href="#">Новинки</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Сертификат</a>
+                    <a href="#">+ Покупателям</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <video autoplay loop muted>
+            <source src="img/0.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="heroInfo">
+            <div class="container">
+                <h2 class="videoHeader">Diamond</h2>
+                <p>Лаконичные украшения</p>
+                <a class="newLink" href="">NEW <img src="img/arrow-right-up.svg" alt=""></a>
+            </div>
+        </div>
     </div>
+    <div class="category">
+        <div class="container">
+            <h2>КАТЕГОРИИ</h2>
+            <a href="#" class="card">
+                <img src="img/sergi.webp" alt="">
+                <p>Серьги</p>
+            </a>
+            <a href="#" class="card centerCard">
+                <img src="img/colier.webp" alt="">
+                <p>Колье</p>
+            </a>
+            <a href="#" class="card">
+                <img src="img/rings.webp" alt="">
+                <p>Кольца</p>
+            </a>
+        </div>
+    </div>
+    <div class="collections">
+        <div class="men cardCollection">
+            <div class="collectionInfo">
+                <h3>МУЖСКИЕ УКРАШЕНИЯ</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+        <div class="taro cardCollection">
+            <div class="collectionInfo">
+                <h3>ТАРО</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+        <div class="charity cardCollection">
+            <div class="collectionInfo">
+                <h3>БЛАГОТВОРИТЕЛЬНОСТЬ</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+        <div class="objects cardCollection">
+            <div class="collectionInfo">
+                <h3>OBJECTS</h3>
+                <a href="">Смотреть коллекцию</a>
+            </div>
+        </div>
+    </div>
+    <div class="shopTovar">
+        <div class="container">
+            <div class="catalog-right">
+                <h2 class="hits">Хиты продаж</h2>
+                <p class="catalog">В каталог<img src="img/arrow-right-up.svg" alt=""
+                    width="25px" style="display: inline-block;"></p>
+            </div>
+            <div class="tovarCards">
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" height="100%" src="img/0.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">RING 128</h3>
+                    <p class="buy">1790 руб</p>
+                    <p class="desc">Кафф на губу</p>
+                </div>
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" height="100%" src="img/sergi.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">AUDREY</h3>
+                    <p class="buy">3550 руб</p>
+                    <p class="desc">Зеркальные серьги-капли на од...</p>
+                </div>
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" height="100%" src="img/1.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">BRANCHES</h3>
+                    <p class="buy">4750 руб</p>
+                    <p class="desc">Широкое структурное кольцо</p>
+                </div>
+                <div class="tovarCard">
+                    <div class="imgCard">
+                        <div class="polosa">
+                            <span class="navImg active"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                            <span class="navImg"></span>
+                        </div>
+                        <img width="100%" height="100%" src="img/2.webp" alt="">
+                        <a href="#"></a>
+                    </div>
+                    <h3 class="nameTovar">ORBITAL</h3>
+                    <p class="buy">1700 руб</p>
+                    <p class="desc">Браслет</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aboutUs">
+        <div class="container">
+            <h1>О нас</h1>
+            <p>
+                Diamond - серебро в лаконичном прочтении, в котором дизайн отражает не тренды, а находится вне<br>
+                времени. Путь, от идеи создать стильный чокер до минималистичных украшений из серебра, только<br>
+                укрепил наше желание воплощать коллекции, которые будут актуальны всегда.<br>
+                Дополнит наше серебряное украшение ваш образ или будет самодостаточным зависит только от вас, как и<br>
+                выбор спутника: кольцо, серьги браслет и колье.<br>
+                <br>
+                Все изделия Diamond производятся из серебра 925 пробы с золотым или родиевым покрытием с <br>
+                испольхованием натуральным камней в центральной и южной части России, и в родном для бренда Санкт-<br>
+                Петербурге, занимая demi-fine нишу - между бежутерией и высоким ювелирным исскуством (fine<br>
+                jewellery).<br>
+                <br>
+                Оформить доставку по России с примеркой можно в катологе нешего интернет-магазина или <br>
+                познакомьтесь с брендом лично в магазинах в Москве, санкт-Петербурге и Екатеринбурге.
+            </p>
+        </div>
+    </div>
+    <div class="certificates">
+        <div class="container">
+            <div class="info">
+                <h1>ПОДАРОЧНЫЕ <br> <span>СЕРТИФИКАТЫ</span></h1>
+                <a class="newLink" href="">ПРИОБРЕСТИ <img src="img/arrow-right-up.svg" alt=""></a>
+            </div>
+                <img class="gift" src="img/1.jpg" alt="">
+        </div>
+    </div>
+    <div class="emails">
+        <div class="container">
+            <h1>ПОДПИШИСЬ НА РАССЫЛКУ, ЧТОБЫ ПЕРВЫМИ <br> УЗНАВАТЬ О НОВИНКАХ, СЕЗОННЫХ РАСПРОДАЖАХ <br> И СЕКРЕТНЫХ ПРОМОКОДОВ</h1>
+            <div class="emailContainer">
+                <input type="email" placeholder="Ваш e-mail">
+                <a class="subscribe" href="#">ПОДПИСАТЬСЯ</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <img class="diamond-footer" src="./img/diamond.svg" alt="">
+            <ul class="card-footer">
+                <li><a href="">Сертификаты</a></li>
+            </ul>
+            <ul class="card-footer">
+                <li><a href="">О нас</a></li>
+                <li><a href="">Магазины</a></li>
+                <li><a href="">Гарантии и возврат</a></li>
+                <li><a href="">Оферта</a></li>
+                <li><a href="">Как ухаживать за украшениями?</a></li>
+                <li><a href="">Как выбрать размер</a></li>
+                <li><a href="">Доставка и оплата</a></li>
+                <li><a href="">Вакансии</a></li>
+            </ul>
+            <ul class="card-footer">
+                <li><p>Связаться с нами</p></li>
+                <li><a class="tel-footer" href="tel:+74955904132">+7 (495) 590-41-32</a></li>
+                <li>
+                    <p>Мы в мессанджерах:</p>
+                </li>
+                <li class="social-links">
+                    <a class="vk" href=""></a>
+                    <a class="tg" href=""></a>
+                    <a class="wt" href=""></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="container">
+        <p class="copyright">© 2024. Diamond store. Все права защищены</p>
+    </div>
+    <script>
+        let cards = document.getElementsByClassName("cardCollection");
+        for(let c of cards){
+            c.style.height=window.innerWidth / 2 + "px"
+        }
+    </script>
 </body>
 
 </html>
